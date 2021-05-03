@@ -1,0 +1,76 @@
+
+{
+  "active": true,
+  "type": "cpt",
+  "name": "event",
+  "supports": [
+    "title",
+    "editor",
+    "comments",
+    "revisions",
+    "author",
+    "page-attributes",
+    "thumbnail",
+    "post-formats"
+  ],
+  "labels": {
+    "has_one": "Event",
+    "has_many": "Events",
+    "text_domain": "sage",
+    "overrides": {
+      "name": "Events",
+      "singular_name": "Event",
+      "menu_name": "Events",
+      "name_admin_bar": "Event",
+      "add_new": "Add New",
+      "add_new_item": "Add New Event",
+      "edit_item": "Edit event",
+      "new_item": "New event",
+      "view_item": "View event",
+      "view_items": "View events",
+      "search_items": "Search events",
+      "not_found": "No events found.",
+      "not_found_in_trash": "No events found in Trash.",
+      "parent_item-colon": "Parent events:",
+      "all_items": "All events",
+      "archives": "event Archives",
+      "attributes": "event Attributes",
+      "insert_into_item": "Insert into event",
+      "uploaded_to_this_item": "Uploaded to this event",
+      "featured_image": "Featured Image",
+      "set_featured_image": "Set featured image",
+      "remove_featured_image": "Remove featured image",
+      "use_featured_image": "Use featured image",
+      "filter_items_list": "Filter events list",
+      "items_list_navigation": "events list navigation",
+      "items_list": "events list"
+    }
+  },
+  "config": {
+    "public": true,
+    "publicly_queryable": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "query_var": true,
+    "has_archive": true,
+    "hierarchical": true,
+    "menu_position": null,
+    "can_export": true,
+    "menu_icon": "dashicons-calendar",
+    "capability_type": "event",
+    "map_meta_cap": true,
+
+    "taxonomies": [
+      "category",
+      "post_tag"
+    ],
+    "rewrite": {
+      "slug": "events",
+      "with_front": true,
+      "feeds": true,
+      "pages": true
+    }
+  }
+}

@@ -1,0 +1,73 @@
+
+{
+  "active": true,
+  "type": "cpt",
+  "name": "professor",
+  "supports": [
+    "title",
+    "editor",
+    "comments",
+    "revisions",
+    "author",
+    "page-attributes",
+    "thumbnail",
+    "post-formats"
+  ],
+  "labels": {
+    "has_one": "Professor",
+    "has_many": "Professors",
+    "text_domain": "sage",
+    "overrides": {
+      "name": "Professors",
+      "singular_name": "Professor",
+      "menu_name": "Professors",
+      "name_admin_bar": "Professor",
+      "add_new": "Add New",
+      "add_new_item": "Add New Professor",
+      "edit_item": "Edit Professor",
+      "new_item": "New Professor",
+      "view_item": "View Professor",
+      "view_items": "View Professors",
+      "search_items": "Search Professors",
+      "not_found": "No Professors found.",
+      "not_found_in_trash": "No Professors found in Trash.",
+      "parent_item-colon": "Parent Professors:",
+      "all_items": "All Professors",
+      "archives": "Professor Archives",
+      "attributes": "Professor Attributes",
+      "insert_into_item": "Insert into Professor",
+      "uploaded_to_this_item": "Uploaded to this Professor",
+      "featured_image": "Featured Image",
+      "set_featured_image": "Set featured image",
+      "remove_featured_image": "Remove featured image",
+      "use_featured_image": "Use featured image",
+      "filter_items_list": "Filter Professors list",
+      "items_list_navigation": "Professors list navigation",
+      "items_list": "Professors list"
+    }
+  },
+  "config": {
+    "public": true,
+    "publicly_queryable": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "query_var": true,
+    "has_archive": false,
+    "hierarchical": true,
+    "menu_position": null,
+    "can_export": true,
+    "menu_icon": "dashicons-welcome-learn-more",
+    "capability_type": "post",
+    "taxonomies": [
+      "post_tag"
+    ],
+    "rewrite": {
+      "slug": "professors",
+      "with_front": true,
+      "feeds": true,
+      "pages": true
+    }
+  }
+}

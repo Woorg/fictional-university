@@ -1,0 +1,76 @@
+
+{
+  "active": true,
+  "type": "cpt",
+  "name": "campus",
+  "supports": [
+    "title",
+    "editor",
+    "comments",
+    "revisions",
+    "author",
+    "page-attributes",
+    "thumbnail",
+    "post-formats"
+  ],
+  "labels": {
+    "has_one": "Campus",
+    "has_many": "Campuses",
+    "text_domain": "sage",
+    "overrides": {
+      "name": "Campuses",
+      "singular_name": "Campus",
+      "menu_name": "Campuses",
+      "name_admin_bar": "Campus",
+      "add_new": "Add New",
+      "add_new_item": "Add New Campus",
+      "edit_item": "Edit Campus",
+      "new_item": "New Campus",
+      "view_item": "View Campus",
+      "view_items": "View Campuses",
+      "search_items": "Search Campuses",
+      "not_found": "No Campuses found.",
+      "not_found_in_trash": "No Campuses found in Trash.",
+      "parent_item-colon": "Parent Campuses:",
+      "all_items": "All Campuses",
+      "archives": "Campus Archives",
+      "attributes": "Campus Attributes",
+      "insert_into_item": "Insert into Campus",
+      "uploaded_to_this_item": "Uploaded to this Campus",
+      "featured_image": "Featured Image",
+      "set_featured_image": "Set featured image",
+      "remove_featured_image": "Remove featured image",
+      "use_featured_image": "Use featured image",
+      "filter_items_list": "Filter Campuses list",
+      "items_list_navigation": "Campuses list navigation",
+      "items_list": "Campuses list"
+    }
+  },
+  "config": {
+    "public": true,
+    "publicly_queryable": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "query_var": true,
+    "has_archive": true,
+    "hierarchical": true,
+    "menu_position": null,
+    "can_export": true,
+    "menu_icon": "dashicons-location-alt",
+    "capability_type": "campus",
+    "map_meta_cap": true,
+
+    "taxonomies": [
+      "category",
+      "post_tag"
+    ],
+    "rewrite": {
+      "slug": "campuses",
+      "with_front": true,
+      "feeds": true,
+      "pages": true
+    }
+  }
+}

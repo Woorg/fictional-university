@@ -1,0 +1,73 @@
+
+{
+  "active": true,
+  "type": "cpt",
+  "name": "program",
+  "supports": [
+    "title",
+    "comments",
+    "revisions",
+    "author",
+    "page-attributes",
+    "thumbnail",
+    "post-formats"
+  ],
+  "labels": {
+    "has_one": "Program",
+    "has_many": "Programs",
+    "text_domain": "sage",
+    "overrides": {
+      "name": "Programs",
+      "singular_name": "Program",
+      "menu_name": "Programs",
+      "name_admin_bar": "Program",
+      "add_new": "Add New",
+      "add_new_item": "Add New program",
+      "edit_item": "Edit program",
+      "new_item": "New program",
+      "view_item": "View program",
+      "view_items": "View programs",
+      "search_items": "Search programs",
+      "not_found": "No programs found.",
+      "not_found_in_trash": "No programs found in Trash.",
+      "parent_item-colon": "Parent programs:",
+      "all_items": "All programs",
+      "archives": "program Archives",
+      "attributes": "program Attributes",
+      "insert_into_item": "Insert into program",
+      "uploaded_to_this_item": "Uploaded to this program",
+      "featured_image": "Featured Image",
+      "set_featured_image": "Set featured image",
+      "remove_featured_image": "Remove featured image",
+      "use_featured_image": "Use featured image",
+      "filter_items_list": "Filter programs list",
+      "items_list_navigation": "programs list navigation",
+      "items_list": "programs list"
+    }
+  },
+  "config": {
+    "public": true,
+    "publicly_queryable": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "query_var": true,
+    "has_archive": true,
+    "hierarchical": true,
+    "menu_position": null,
+    "can_export": true,
+    "menu_icon": "dashicons-hammer",
+    "capability_type": "post",
+    "taxonomies": [
+      "category",
+      "post_tag"
+    ],
+    "rewrite": {
+      "slug": "programs",
+      "with_front": true,
+      "feeds": true,
+      "pages": true
+    }
+  }
+}

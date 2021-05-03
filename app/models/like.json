@@ -1,0 +1,67 @@
+
+{
+  "active": true,
+  "type": "cpt",
+  "name": "like",
+  "supports": [
+    "title"
+  ],
+  "labels": {
+    "has_one": "Like",
+    "has_many": "Likes",
+    "text_domain": "sage",
+    "overrides": {
+      "name": "Likes",
+      "singular_name": "Like",
+      "menu_name": "Likes",
+      "name_admin_bar": "Like",
+      "add_new": "Add New",
+      "add_new_item": "Add New Like",
+      "edit_item": "Edit Like",
+      "new_item": "New Like",
+      "view_item": "View Like",
+      "view_items": "View Likes",
+      "search_items": "Search Likes",
+      "not_found": "No Likes found.",
+      "not_found_in_trash": "No Likes found in Trash.",
+      "parent_item-colon": "Parent Likes:",
+      "all_items": "All Likes",
+      "archives": "Like Archives",
+      "attributes": "Like Attributes",
+      "insert_into_item": "Insert into Like",
+      "uploaded_to_this_item": "Uploaded to this Like",
+      "featured_image": "Featured Image",
+      "set_featured_image": "Set featured image",
+      "remove_featured_image": "Remove featured image",
+      "use_featured_image": "Use featured image",
+      "filter_items_list": "Filter Likes list",
+      "items_list_navigation": "Likes list navigation",
+      "items_list": "Likes list"
+    }
+  },
+  "config": {
+    "public": false,
+    "publicly_queryable": false,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": false,
+    "query_var": true,
+    "has_archive": true,
+    "hierarchical": true,
+    "menu_position": null,
+    "can_export": true,
+    "menu_icon": "dashicons-heart",
+
+    "taxonomies": [
+      "category",
+      "post_tag"
+    ],
+    "rewrite": {
+      "slug": "likes",
+      "with_front": true,
+      "feeds": true,
+      "pages": true
+    }
+  }
+}
